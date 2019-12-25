@@ -4,7 +4,7 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
-            <!-- <div class="card">
+            <div class="card">
                 <div class="card-header">Dashboard</div>
 
                 <div class="card-body">
@@ -16,15 +16,6 @@
 
                     You are logged in!
                 </div>
-            </div> -->
-            <div class="p-1">
-              <passport-clients></passport-clients>
-            </div>
-            <div class="p-1">
-              <passport-authorized-clients></passport-authorized-clients>
-            </div>
-            <div class="p-1">
-              <passport-personal-access-tokens></passport-personal-access-tokens>
             </div>
         </div>
     </div>

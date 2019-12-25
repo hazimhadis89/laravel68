@@ -25,4 +25,14 @@ class HomeController extends WebController
     {
         return view('home');
     }
+
+    /**
+     * Show the application OAuth2 dashboard.
+     *
+     * @return \Illuminate\Contracts\Support\Renderable
+     */
+    public function oauth2()
+    {
+        return view('oauth2');
+    }
 }

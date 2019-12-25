@@ -19,4 +19,6 @@ Auth::routes();
 
 Route::group(['middleware' => 'auth', 'namespace'=>'Web'], function() {
     Route::get('/home', ['as'=>'home', 'uses'=>'HomeController@index']);
+    Route::get('/oauth2', ['as'=>'oauth2', 'uses'=>'HomeController@oauth2']);
+    Route::resource('posts', 'PostController');
 });
