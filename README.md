@@ -1,4 +1,4 @@
-## TLDR
+## TLDR - Laravel 6.8 with oAuth2
 - if **Class 'Laravel\Passport\PassportServiceProvider' not found** run **composer require laravel/passport**
 
 
