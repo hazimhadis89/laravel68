@@ -1,6 +1,5 @@
 ## TLDR
-- Class 'Laravel\Passport\PassportServiceProvider' not found
-composer require laravel/passport
+- if **Class 'Laravel\Passport\PassportServiceProvider' not found** run **composer require laravel/passport**
 
 
 
