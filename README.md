@@ -3,6 +3,7 @@ The purpose of this repo is to provide working Laravel API with oAuth2 as a boil
 
 ## Quick Fix
 - if **Class 'Laravel\Passport\PassportServiceProvider' not found** run **composer require laravel/passport**
+- if using oAuth2 password_grant return unauthorized, go to **oauth_clients table** and change **password_client column** to 1
 
 
 
